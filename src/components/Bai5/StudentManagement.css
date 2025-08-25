@@ -1,0 +1,58 @@
+.status-active {
+  background-color: #dcfce7;
+  color: #15803d;
+  padding: 4px 10px;
+  border-radius: 12px;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.status-inactive {
+  background-color: #fee2e2; 
+  color: #b91c1c;
+  padding: 4px 10px;
+  border-radius: 12px;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+/* Toolbar */
+.custom-select,
+.custom-input {
+  border-radius: 12px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+/* Table */
+.table {
+  border-radius: 12px;
+  overflow: hidden;
+}
+.table thead th {
+  background: #f9fafb;
+  font-weight: 600;
+}
+.table tbody tr:hover {
+  background-color: #f3f4f6;
+}
+
+.btn {
+  font-size: 14px;
+  padding: 4px 12px;
+}
+
+/* Pagination */
+.pagination .page-link {
+  width: 36px;
+  height: 36px;
+  text-align: center;
+  line-height: 26px;
+  border-radius: 50% !important;
+  margin: 0 4px;
+  color: #111827;
+}
+.pagination .active .page-link {
+  background-color: #3b82f6;
+  border-color: #3b82f6;
+  color: #fff;
+}
